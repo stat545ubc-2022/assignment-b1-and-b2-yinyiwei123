@@ -1,12 +1,17 @@
 Package: SPPH400
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: Calculate mean and median together
+Version: 0.1.0
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Yiwei", "Yin", , "yinyiwei@student.ubc.ca", role = c("aut", "cre"),
+           )
+Description: The goal of SPPH400 is to calculate the mean and median at the same time. This kind of calculation is commonly used in statitics course.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.1
+Imports: 
+  dplyr
+Depends: R(>= 2.10.0)
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3

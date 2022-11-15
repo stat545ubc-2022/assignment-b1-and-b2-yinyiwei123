@@ -1,0 +1,24 @@
+---
+output: md_document
+---
+
+# SPPH400
+The goal of SPPH400 is to calculate the mean and median at the same time. This kind of calculation is commonly used in statitics course.
+
+## Installation 
+
+You can install the SPPH400 from github with 
+
+```{r gh-installation, eval = FALSE}
+# install.packages("devtools")
+devtools::install_github("stat545ubc-2022/assignment-b1-and-b2-yinyiwei123/mean.median")
+
+```
+## Example 
+Here is an example 
+```{r example}
+library(SPPH400)
+library(palmerpenguins)
+mean_median_body_mass<-mean_median(penguins$body_mass_g)
+```
+
